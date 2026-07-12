@@ -41,6 +41,8 @@ apis:
       - type: x-api-endpoint
         url: https://dados.recife.pe.gov.br/api/3/action/status_show
 common:
+  - type: DomainSecurity
+    url: security/dados-recife-pe-gov-br-domain-security.yml
   - type: Website
     url: https://dados.recife.pe.gov.br
   - type: Documentation
